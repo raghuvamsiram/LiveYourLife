@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  WebAppOfMySite
+//  LiveYourLife
 //
-//  Created by Vamsi on 3/19/14.
+//  Created by Vamsi on 3/24/14.
 //  Copyright (c) 2014 raghuvamsiram. All rights reserved.
 //
 

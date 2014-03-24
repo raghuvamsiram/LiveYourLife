@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC828EF918DA7909008D9648"
-               BuildableName = "WebAppOfMySite.app"
-               BlueprintName = "WebAppOfMySite"
-               ReferencedContainer = "container:WebAppOfMySite.xcodeproj">
+               BlueprintIdentifier = "ACFB595418E0D94B00F5B4A9"
+               BuildableName = "LiveYourLife.app"
+               BlueprintName = "LiveYourLife"
+               ReferencedContainer = "container:LiveYourLife.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC828F1A18DA790A008D9648"
-               BuildableName = "WebAppOfMySiteTests.xctest"
-               BlueprintName = "WebAppOfMySiteTests"
-               ReferencedContainer = "container:WebAppOfMySite.xcodeproj">
+               BlueprintIdentifier = "ACFB597518E0D94B00F5B4A9"
+               BuildableName = "LiveYourLifeTests.xctest"
+               BlueprintName = "LiveYourLifeTests"
+               ReferencedContainer = "container:LiveYourLife.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC828EF918DA7909008D9648"
-            BuildableName = "WebAppOfMySite.app"
-            BlueprintName = "WebAppOfMySite"
-            ReferencedContainer = "container:WebAppOfMySite.xcodeproj">
+            BlueprintIdentifier = "ACFB595418E0D94B00F5B4A9"
+            BuildableName = "LiveYourLife.app"
+            BlueprintName = "LiveYourLife"
+            ReferencedContainer = "container:LiveYourLife.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC828EF918DA7909008D9648"
-            BuildableName = "WebAppOfMySite.app"
-            BlueprintName = "WebAppOfMySite"
-            ReferencedContainer = "container:WebAppOfMySite.xcodeproj">
+            BlueprintIdentifier = "ACFB595418E0D94B00F5B4A9"
+            BuildableName = "LiveYourLife.app"
+            BlueprintName = "LiveYourLife"
+            ReferencedContainer = "container:LiveYourLife.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC828EF918DA7909008D9648"
-            BuildableName = "WebAppOfMySite.app"
-            BlueprintName = "WebAppOfMySite"
-            ReferencedContainer = "container:WebAppOfMySite.xcodeproj">
+            BlueprintIdentifier = "ACFB595418E0D94B00F5B4A9"
+            BuildableName = "LiveYourLife.app"
+            BlueprintName = "LiveYourLife"
+            ReferencedContainer = "container:LiveYourLife.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

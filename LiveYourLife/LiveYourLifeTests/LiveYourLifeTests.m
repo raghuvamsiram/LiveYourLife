@@ -1,18 +1,18 @@
 //
-//  WebAppOfMySiteTests.m
-//  WebAppOfMySiteTests
+//  LiveYourLifeTests.m
+//  LiveYourLifeTests
 //
-//  Created by Vamsi on 3/19/14.
+//  Created by Vamsi on 3/24/14.
 //  Copyright (c) 2014 raghuvamsiram. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface WebAppOfMySiteTests : XCTestCase
+@interface LiveYourLifeTests : XCTestCase
 
 @end
 
-@implementation WebAppOfMySiteTests
+@implementation LiveYourLifeTests
 
 - (void)setUp
 {

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  WebAppOfMySite
+//  LiveYourLife
 //
-//  Created by Vamsi on 3/19/14.
+//  Created by Vamsi on 3/24/14.
 //  Copyright (c) 2014 raghuvamsiram. All rights reserved.
 //
 
@@ -12,10 +12,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //Correct the image so that it is nicely strected to fit the window size.
+    
+    UIGraphicsBeginImageContext(self.window.frame.size);
+    [[UIImage imageNamed:@"backGround.png"] drawInRect:self.window.bounds];
+    UIImage *backGroundImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    //Add the image as background for the whole app
+
+    self.window.backgroundColor = [UIColor  colorWithPatternImage:backGroundImage];
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

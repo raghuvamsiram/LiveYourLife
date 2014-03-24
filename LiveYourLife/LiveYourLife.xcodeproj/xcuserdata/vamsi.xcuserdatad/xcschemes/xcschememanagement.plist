@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WebAppOfMySite.xcscheme</key>
+		<key>LiveYourLife.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AC828EF918DA7909008D9648</key>
+		<key>ACFB595418E0D94B00F5B4A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AC828F1A18DA790A008D9648</key>
+		<key>ACFB597518E0D94B00F5B4A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
