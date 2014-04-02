@@ -14,23 +14,36 @@
 
 @implementation ShoppingViewController
 
-//- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-//{
-//    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-//    if (self) {
-//        // Custom initialization
-//    }
-//    return self;
-//}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+  
+    /******************************************************************************************************
+     ////////////// Set the view background to clear color to visualise background blur  //////////////////
+    ******************************************************************************************************/
+    
     [self.view setBackgroundColor:[UIColor clearColor]];
     
-    // Set this in every view controller so that the back button displays back instead of the root view controller name
+    /******************************************************************************************************
+    //////////////    Blur Background to make it look like the IOS 7 tool bar effect   //////////////////
+    ******************************************************************************************************/
+    
+    UIToolbar *backToolbar = [[UIToolbar alloc] initWithFrame:self.view.bounds];
+    backToolbar.autoresizingMask = self.view.autoresizingMask;
+    
+    // Place the back toolbar  below everything
+    [self.view insertSubview:backToolbar atIndex:0];
+    
+    
+    /******************************************************************************************************
+     //////////////  Set this in every view controller so that the back button displays //////////////////
+    //////////////              back instead of the root view controller name          //////////////////
+    ******************************************************************************************************/
+    
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    
+    
+    //End of ViewDidLoad
 }
 
 - (void)didReceiveMemoryWarning
