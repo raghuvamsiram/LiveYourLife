@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACD8ADBB18EC839B0042A9CB /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD8ADBA18EC839B0042A9CB /* ShoppingViewController.m */; };
+		ACD8ADBE18EC84050042A9CB /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD8ADBD18EC84050042A9CB /* EventsViewController.m */; };
+		ACD8ADC118EC843D0042A9CB /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD8ADC018EC843D0042A9CB /* NavigationViewController.m */; };
+		ACD8ADC418EC84670042A9CB /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD8ADC318EC84670042A9CB /* FoodViewController.m */; };
 		ACFB595918E0D94B00F5B4A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB595818E0D94B00F5B4A9 /* Foundation.framework */; };
 		ACFB595B18E0D94B00F5B4A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB595A18E0D94B00F5B4A9 /* CoreGraphics.framework */; };
 		ACFB595D18E0D94B00F5B4A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB595C18E0D94B00F5B4A9 /* UIKit.framework */; };
@@ -21,6 +25,7 @@
 		ACFB597A18E0D94B00F5B4A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB595C18E0D94B00F5B4A9 /* UIKit.framework */; };
 		ACFB598218E0D94B00F5B4A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACFB598018E0D94B00F5B4A9 /* InfoPlist.strings */; };
 		ACFB598418E0D94B00F5B4A9 /* LiveYourLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFB598318E0D94B00F5B4A9 /* LiveYourLifeTests.m */; };
+		ACFB599218E0F23C00F5B4A9 /* backGround.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFB599118E0F23C00F5B4A9 /* backGround.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACD8ADB918EC839B0042A9CB /* ShoppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingViewController.h; sourceTree = "<group>"; };
+		ACD8ADBA18EC839B0042A9CB /* ShoppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewController.m; sourceTree = "<group>"; };
+		ACD8ADBC18EC84050042A9CB /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		ACD8ADBD18EC84050042A9CB /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		ACD8ADBF18EC843D0042A9CB /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		ACD8ADC018EC843D0042A9CB /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		ACD8ADC218EC84670042A9CB /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		ACD8ADC318EC84670042A9CB /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
 		ACFB595518E0D94B00F5B4A9 /* LiveYourLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveYourLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFB595818E0D94B00F5B4A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACFB595A18E0D94B00F5B4A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,7 @@
 		ACFB597F18E0D94B00F5B4A9 /* LiveYourLifeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiveYourLifeTests-Info.plist"; sourceTree = "<group>"; };
 		ACFB598118E0D94B00F5B4A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACFB598318E0D94B00F5B4A9 /* LiveYourLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveYourLifeTests.m; sourceTree = "<group>"; };
+		ACFB599118E0F23C00F5B4A9 /* backGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backGround.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACD8ADB418EC82B00042A9CB /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB596D18E0D94B00F5B4A9 /* ViewController.h */,
+				ACFB596E18E0D94B00F5B4A9 /* ViewController.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		ACD8ADB518EC82D40042A9CB /* Shopping View */ = {
+			isa = PBXGroup;
+			children = (
+				ACD8ADB918EC839B0042A9CB /* ShoppingViewController.h */,
+				ACD8ADBA18EC839B0042A9CB /* ShoppingViewController.m */,
+			);
+			name = "Shopping View";
+			sourceTree = "<group>";
+		};
+		ACD8ADB618EC82EF0042A9CB /* Events View */ = {
+			isa = PBXGroup;
+			children = (
+				ACD8ADBC18EC84050042A9CB /* EventsViewController.h */,
+				ACD8ADBD18EC84050042A9CB /* EventsViewController.m */,
+			);
+			name = "Events View";
+			sourceTree = "<group>";
+		};
+		ACD8ADB718EC82FA0042A9CB /* Navigation View */ = {
+			isa = PBXGroup;
+			children = (
+				ACD8ADBF18EC843D0042A9CB /* NavigationViewController.h */,
+				ACD8ADC018EC843D0042A9CB /* NavigationViewController.m */,
+			);
+			name = "Navigation View";
+			sourceTree = "<group>";
+		};
+		ACD8ADB818EC83170042A9CB /* Food View */ = {
+			isa = PBXGroup;
+			children = (
+				ACD8ADC218EC84670042A9CB /* FoodViewController.h */,
+				ACD8ADC318EC84670042A9CB /* FoodViewController.m */,
+			);
+			name = "Food View";
+			sourceTree = "<group>";
+		};
 		ACFB594C18E0D94B00F5B4A9 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +183,7 @@
 		ACFB595F18E0D94B00F5B4A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ACFB599018E0F22A00F5B4A9 /* images */,
 				ACFB596018E0D94B00F5B4A9 /* LiveYourLife-Info.plist */,
 				ACFB596118E0D94B00F5B4A9 /* InfoPlist.strings */,
 				ACFB596418E0D94B00F5B4A9 /* main.m */,
@@ -162,8 +222,11 @@
 		ACFB598E18E0D95E00F5B4A9 /* View-Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				ACFB596D18E0D94B00F5B4A9 /* ViewController.h */,
-				ACFB596E18E0D94B00F5B4A9 /* ViewController.m */,
+				ACD8ADB418EC82B00042A9CB /* Main View */,
+				ACD8ADB518EC82D40042A9CB /* Shopping View */,
+				ACD8ADB618EC82EF0042A9CB /* Events View */,
+				ACD8ADB718EC82FA0042A9CB /* Navigation View */,
+				ACD8ADB818EC83170042A9CB /* Food View */,
 			);
 			name = "View-Controllers";
 			sourceTree = "<group>";
@@ -174,6 +237,14 @@
 				ACFB596A18E0D94B00F5B4A9 /* Main.storyboard */,
 			);
 			name = Stroryboard;
+			sourceTree = "<group>";
+		};
+		ACFB599018E0F22A00F5B4A9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB599118E0F23C00F5B4A9 /* backGround.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +294,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = raghuvamsiram;
 				TargetAttributes = {
+					ACFB595418E0D94B00F5B4A9 = {
+						DevelopmentTeam = YTABQD33G5;
+					};
 					ACFB597518E0D94B00F5B4A9 = {
 						TestTargetID = ACFB595418E0D94B00F5B4A9;
 					};
@@ -253,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFB597118E0D94B00F5B4A9 /* Images.xcassets in Resources */,
+				ACFB599218E0F23C00F5B4A9 /* backGround.png in Resources */,
 				ACFB596318E0D94B00F5B4A9 /* InfoPlist.strings in Resources */,
 				ACFB596C18E0D94B00F5B4A9 /* Main.storyboard in Resources */,
 			);
@@ -274,7 +349,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFB596F18E0D94B00F5B4A9 /* ViewController.m in Sources */,
+				ACD8ADBE18EC84050042A9CB /* EventsViewController.m in Sources */,
+				ACD8ADC118EC843D0042A9CB /* NavigationViewController.m in Sources */,
 				ACFB596918E0D94B00F5B4A9 /* AppDelegate.m in Sources */,
+				ACD8ADBB18EC839B0042A9CB /* ShoppingViewController.m in Sources */,
+				ACD8ADC418EC84670042A9CB /* FoodViewController.m in Sources */,
 				ACFB596518E0D94B00F5B4A9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,10 +479,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LiveYourLife/LiveYourLife-Prefix.pch";
 				INFOPLIST_FILE = "LiveYourLife/LiveYourLife-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -413,10 +499,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LiveYourLife/LiveYourLife-Prefix.pch";
 				INFOPLIST_FILE = "LiveYourLife/LiveYourLife-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -480,6 +573,7 @@
 				ACFB598918E0D94B00F5B4A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACFB598A18E0D94B00F5B4A9 /* Build configuration list for PBXNativeTarget "LiveYourLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +582,7 @@
 				ACFB598C18E0D94B00F5B4A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

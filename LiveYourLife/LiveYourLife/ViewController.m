@@ -23,11 +23,6 @@
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
 
 
-//    
-//    UIImageView *windowBackground=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"backGround.png"]];
-//    windowBackground.frame=CGRectMake(0, 0, 320, 568);
-//
-//    [self.view addSubview:windowBackground];
 
 }
 

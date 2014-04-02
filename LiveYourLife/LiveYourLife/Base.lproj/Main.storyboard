@@ -17,11 +17,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAF-qQ-tex">
-                                <rect key="frame" x="214" y="118" width="86" height="36"/>
+                                <rect key="frame" x="211" y="107" width="84" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Go-Shop">
-                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="4Ie-5M-Oie" kind="push" id="sfE-An-Z5e"/>
@@ -32,7 +33,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Events'Party">
-                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="L6s-Q7-ljw" kind="push" id="k5r-RF-bd9"/>
@@ -43,7 +45,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Take me 'here'">
-                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="Lw2-OQ-dmD" kind="push" id="JUu-aY-iVT"/>
@@ -54,7 +57,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="@m Hungry">
-                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="WkU-JE-vzK" kind="push" id="u3N-qa-ii2"/>
@@ -62,6 +66,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="LiveYourLife" id="VIM-4O-2Qu"/>
                     <connections>
@@ -73,44 +78,64 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="604" y="23"/>
+            <point key="canvasLocation" x="636" y="-221"/>
         </scene>
-        <!--View Controller - Events' Party-->
+        <!--Events View Controller - Events' Party-->
         <scene sceneID="a0e-zh-0lH">
             <objects>
-                <viewController title="Events' Party" id="L6s-Q7-ljw" sceneMemberID="viewController">
-                    <label key="view" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Itw-eF-48b">
+                <viewController title="Events' Party" id="L6s-Q7-ljw" customClass="EventsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zQX-Nf-QIM"/>
+                        <viewControllerLayoutGuide type="bottom" id="fcL-M8-jgI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pqh-eG-KAp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Events n party" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mI-cP-o4D">
+                                <rect key="frame" x="96" y="293" width="110" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
                     <navigationItem key="navigationItem" title="Events' Party" id="cx2-sl-Sm2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SeK-rA-hQu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1167" y="-431"/>
+            <point key="canvasLocation" x="1231" y="-591"/>
         </scene>
-        <!--View Controller - Go Shop-->
+        <!--Shopping View Controller - Go Shop-->
         <scene sceneID="93U-S1-j4K">
             <objects>
-                <viewController title="Go Shop" id="4Ie-5M-Oie" sceneMemberID="viewController">
-                    <label key="view" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bLX-5c-nzC">
+                <viewController title="Go Shop" id="4Ie-5M-Oie" customClass="ShoppingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Fu-X6-4fp"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xhu-Jm-MM7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FqG-bj-U1M">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is Go Shop View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7X-Tf-1uQ">
+                                <rect key="frame" x="131" y="163" width="163" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
                     <navigationItem key="navigationItem" title="Go Shop" id="Skl-OO-D5g"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2fZ-HU-4An" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1151" y="-1185"/>
+            <point key="canvasLocation" x="1215" y="-1345"/>
         </scene>
-        <!--View Controller - @m Hungry-->
+        <!--Food View Controller - @m Hungry-->
         <scene sceneID="28J-cw-sAI">
             <objects>
-                <viewController title="@m Hungry" id="WkU-JE-vzK" sceneMemberID="viewController">
+                <viewController title="@m Hungry" id="WkU-JE-vzK" customClass="FoodViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tIz-fW-8NB"/>
                         <viewControllerLayoutGuide type="bottom" id="b4b-Y9-F5s"/>
@@ -118,17 +143,25 @@
                     <view key="view" contentMode="scaleToFill" id="ZrS-S3-JDp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is im hugry view which directs to " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Q0-qD-2gs">
+                                <rect key="frame" x="20" y="148" width="291" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                     </view>
                     <navigationItem key="navigationItem" title="@m Hungry" id="TM7-fd-Dvp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8xP-aa-lA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1159" y="1125"/>
+            <point key="canvasLocation" x="1199" y="973"/>
         </scene>
-        <!--View Controller - Take me 'here'-->
+        <!--Navigation View Controller - Take me 'here'-->
         <scene sceneID="VXi-Fi-c9a">
             <objects>
-                <viewController title="Take me 'here'" id="Lw2-OQ-dmD" sceneMemberID="viewController">
+                <viewController title="Take me 'here'" id="Lw2-OQ-dmD" customClass="NavigationViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mMy-mm-tcd"/>
                         <viewControllerLayoutGuide type="bottom" id="kCi-L1-Nhm"/>
@@ -136,12 +169,21 @@
                     <view key="view" alpha="0.29999999999999966" contentMode="scaleToFill" id="TD5-hX-TA7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="this is tomtom" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdt-YO-M4B">
+                                <rect key="frame" x="139" y="164" width="109" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
                     </view>
                     <navigationItem key="navigationItem" title="Take me 'here'" id="SbF-zr-pQ7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L9R-In-3gN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1167" y="357"/>
+            <point key="canvasLocation" x="1207" y="205"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Jxb-mK-qWg">
@@ -159,7 +201,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V7j-Fd-qXw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="50" y="691"/>
+            <point key="canvasLocation" x="106" y="-229"/>
         </scene>
     </scenes>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
