@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIView *tomTomAppButton;
+@interface MainViewController : UIViewController
+
+
+@property (strong, nonatomic) IBOutlet UIView *navigationAppButton;
+
 @property (strong, nonatomic) IBOutlet UIView *shoppingAppButton;
 @property (strong, nonatomic) IBOutlet UIView *eventBriteAppButton;
 @property (strong, nonatomic) IBOutlet UIView *foodAppButton;

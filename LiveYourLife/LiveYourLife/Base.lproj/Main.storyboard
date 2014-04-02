@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - LiveYourLife-->
+        <!--Main View Controller - LiveYourLife-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -49,7 +49,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Lw2-OQ-dmD" kind="push" id="JUu-aY-iVT"/>
+                                    <segue destination="kil-UH-Y1s" kind="push" id="Coq-Ts-zub"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbV-Sq-QjK">
@@ -72,13 +72,13 @@
                     <connections>
                         <outlet property="eventBriteAppButton" destination="kh9-bI-dsS" id="0MQ-T0-qXr"/>
                         <outlet property="foodAppButton" destination="kh9-bI-dsS" id="o0d-xq-HoG"/>
+                        <outlet property="navigationAppButton" destination="J76-mN-nJ4" id="y47-va-gBe"/>
                         <outlet property="shoppingAppButton" destination="kh9-bI-dsS" id="grG-bI-711"/>
-                        <outlet property="tomTomAppButton" destination="kh9-bI-dsS" id="bDd-RL-KBR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="636" y="-221"/>
+            <point key="canvasLocation" x="592" y="-237"/>
         </scene>
         <!--Events View Controller - Events' Party-->
         <scene sceneID="a0e-zh-0lH">
@@ -156,34 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8xP-aa-lA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1199" y="973"/>
-        </scene>
-        <!--Navigation View Controller - Take me 'here'-->
-        <scene sceneID="VXi-Fi-c9a">
-            <objects>
-                <viewController title="Take me 'here'" id="Lw2-OQ-dmD" customClass="NavigationViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mMy-mm-tcd"/>
-                        <viewControllerLayoutGuide type="bottom" id="kCi-L1-Nhm"/>
-                    </layoutGuides>
-                    <view key="view" alpha="0.29999999999999966" contentMode="scaleToFill" id="TD5-hX-TA7">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="this is tomtom" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdt-YO-M4B">
-                                <rect key="frame" x="139" y="164" width="109" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </label>
-                        </subviews>
-                    </view>
-                    <navigationItem key="navigationItem" title="Take me 'here'" id="SbF-zr-pQ7"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="L9R-In-3gN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1207" y="205"/>
+            <point key="canvasLocation" x="1223" y="885"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Jxb-mK-qWg">
@@ -202,6 +175,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V7j-Fd-qXw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="106" y="-229"/>
+        </scene>
+        <!--Navigation View Controller - Events' Party-->
+        <scene sceneID="OLr-7U-hes">
+            <objects>
+                <viewController title="Events' Party" id="kil-UH-Y1s" customClass="NavigationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z33-YE-dGu"/>
+                        <viewControllerLayoutGuide type="bottom" id="iy1-3G-Tlo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LcU-dv-HJG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Navigation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhF-HS-zsc">
+                                <rect key="frame" x="96" y="293" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <navigationItem key="navigationItem" title="Take me here" id="nFk-2J-amO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="97t-9O-kUK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1247" y="123"/>
         </scene>
     </scenes>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>

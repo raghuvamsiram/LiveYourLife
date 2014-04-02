@@ -12,16 +12,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //Correct the image so that it is nicely strected to fit the window size.
+    /******************************************************************************************************
+     ////////////// Correct the image so that it is nicely strected to fit the window size ///////////////
+    ******************************************************************************************************/
     
     UIGraphicsBeginImageContext(self.window.frame.size);
     [[UIImage imageNamed:@"backGround.png"] drawInRect:self.window.bounds];
     UIImage *backGroundImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
-    //Add the image as background for the whole app
+    /******************************************************************************************************
+     ////////////////      Add the image as background for the whole app                ///////////////////
+    ******************************************************************************************************/
 
     self.window.backgroundColor = [UIColor  colorWithPatternImage:backGroundImage];
+    
+    
+    
     return YES;
 }
 
